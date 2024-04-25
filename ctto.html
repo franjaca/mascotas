@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mascotas</title>
+    <meta name="autho" content="Francisco Javier Cabello">
+    <meta name="Keywords" content="Imagenes,HTML;Formato">
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<center><img src="img/mascotas_head.png" alt="mascotas" width="1200" height="350"></center>
+
+
+
+
+
+<style>
+    #menu {
+
+        list-style: none;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(28, 5, 75);
+        padding: 20px;
+    }
+
+    #menu li {
+
+        display: inline;
+
+    }
+
+
+    #menu li a {
+
+        color: rgb(138, 214, 32);
+        text-align: center;
+        text-decoration: none;
+        padding: 15px;
+
+    }
+
+    #menu li a:hover {
+        color: black;
+    }
+
+
+
+
+    #boton1 {
+        background-color: green;
+        padding: 15px 25px;
+
+
+    }
+</style>
+
+
+
+
+
+
+
+
+
+
+
+<body>
+
+
+
+    <ul style="list-style: none;" id="menu">
+
+
+
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="qsomos.html">Quienes Somos</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="ctto.html">Contacto</a></li>
+
+    </ul>
+
+    <h1><b>Contáctenos</b></h1>
+    <br><br>
+
+    <p style="margin: auto;width: 20%;"><b>+COTAS Toledo:</b> Ronda de Toledo, 30. Telf: 999 999 999</p>
+    <br>
+    <p style="margin: auto;width: 20%;"><b>COTAS Ciudad:</b> Ronda de Calatraba, 51. Telf: 999 999 555</p>
+    <br>
+    <p style="margin: auto;width: 20%;"><b>+COTAS Cuenca:</b> Calle Molinos, 25. Telf: 999 999 555</p>
+    <br>
+    <br><br>
+
+    <h1><b>Formulario de Contacto</b></h1>
+
+    <br>
+    <section id="contenedor6">
+    <form autocomplete="on">
+
+        <p><label for="nombre">Nombre</label>
+            <input type="text" id="nombre" placeholder="Ingresa tu nombre" required minlength="3" maxlength="20"
+                pattern="[a-Z]">
+
+
+
+        </p>
+
+        <p>
+          
+
+            <label for="email"> Email:</label>
+            <input type="email" id="email" placeholder="cabello">
+
+        </p>
+
+
+        <p><label for="telefono">Telefono</label>
+            <input type="text" id="telefono" required minlength="9" maxlength="9"
+                pattern="{0-9}">
+
+
+
+
+        </p>
+
+        <p>
+
+            <label for="mensaje">Escribe un mensaje:</label><br>
+            <textarea name="mensaje" id="mensaje" cols="55" rows="5" placeholder="max. 30 carecteres"></textarea>
+
+
+        </p>
+
+    </section>
+        <p id="botones" style="margin-left:auto;text-align: center  ;">
+            <input type="submit" value="aceptar" id="boton1">
+        </p>
+
+      
